@@ -44,29 +44,29 @@ footer{
 }
 
 .container_flex > div{
-    border:4px #eee solid; /* border and border thickness */
+    border:2px #eee solid; /* border and border thickness */
     padding:10px;
      
 }
 
 .box1{
-    flex:0.7;
+    flex:0.5;
     
 }
 
 .box2{
-    flex:0.3;
+    flex:1;
     
 }
 
 .box3{
-    flex:4;
+    flex:1;
    
 }
 
-/* .box4{
+.box4{
     flex:1;
-} */
+} 
 
 #grey_color{
     color: grey;
