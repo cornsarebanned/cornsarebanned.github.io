@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        #font_yingqi {
+            font-family: 'Gaegu', cursive;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .font-change {
+            font-family: 'Gaegu', cursive;
+            font-size: 17px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #dropdown_button {
+            border: 2px solid grey;
+            width: 12px;
+            height: 20px;
+            background-color: white;
+            border: 5px dotted red;
+            display: inline-block;
+            margin-top: 3px;
+            margin-left: 2.5px;
+        }
+
+        #dropdown_button:hover {
+            background: rgb(196, 189, 189);
+            color: white;
+        }
+
+        #search_bar {
+            /* border: 5px dotted blue; */
+            width: auto;
+            /* margin-left:1.5em; */
+            background-color: #FAFAFA
+        }
+
+
+        #round_img {
+            /* border: 2px solid black; */
+            margin-bottom: 8px;
+
+        }
+
+        .sec_font {
+            font-weight: lighter;
+            /* border: 5px dotted red; */
+            font-size: 26px;
+        }
+
+        .sec2_font {
+            font-weight: normal;
+            /* border: 5px dotted red; */
+            font-size: 17px;
+            margin-left: 10px;
+            color: black;
+        }
+
+        .bold_nums {
+            font-weight: 900;
+            font-size: 17px;
+            /* margin-left: 10px; */
+            color: black;
+        }
+
+        .bold_nums2 {
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        #one {
+            /* border: 5px dotted red; */
+            padding: 3px;
+            margin-right: 20px;
+            margin-left: 2px;
+        }
+
+        #two {
+            /* border: 5px dotted red; */
+            padding: 2px;
+            margin-left: 1px;
+            margin-right: 10px;
+        }
+
+        #three {
+            /* border: 5px dotted red; */
+            padding-right: 10px;
+            padding-left: 6px;
+            margin-left: 25px;
+        }
+
+
+        .highlight_size {
+            font-size: smaller;
+            text-align: center;
+        }
+
+        #black_border {
+            border: 3px solid black;
+        }
+
+        #imagelist a {
+            position: relative;
+            display: inline-block;
+        }
+
+        #imagelist a p {
+            display: none;
+        }
+
+        #imagelist a:hover p {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            opacity: 0.8;
+            top: 0;
+            left: 0;
+            margin: 0;
+            display: block;
+        }
+
+        #imagelist a p span {
+            display: inline-table;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            color: #fff;
+        }
+
+        #imagelist a p span span {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        #imagelist {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        .font_1 {
+            font-family: 'Gaegu', cursive;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #word_cornsarebanned {
+            text-align: left;
+        }
+    </style>
+
+    <header>
+        <title>HOMEPAGE</title>
+    </header>
+
+
+</head>
+
+
+<!--Body starts here-->
+
+<body>
+
+    <div class=" container mt-1">
+        <div class="row" style="border:3px solid black">
+            <div class="col-lg-4 col-sm-6">
+                <h1 id="font_yingqi">BIKESARENTBANNED</h1>
+            </div>
+
+
+
+            <!--Search Box-->
+
+            <div class="col-lg-4 d-none d-lg-block d-xl-block align-self-center ">
+                <input id="search_bar" class="form-control form-control-sm" type="text" placeholder="LOOKING FOR...">
+            </div>
+
+
+            <!--Home icons-->
+            <div class="col-lg-4 col-sm-6">
+                <a class="btn btn-default-home btn-sm" href="yingqi_profile_home.html">
+                    <svg width="1.4em" height="1.4em" viewBox="0 0 16 16" class="bi bi-house-door-fill"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z" />
+                        <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                    </svg></a>
+
+                <a class="btn btn-default-home btn-sm" href="yingqi_products.html">
+                    <svg width="1.4em" height="1.4em" viewBox="0 0 16 16" class="bi bi-emoji-wink-fill"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zm5.152-3.31a.5.5 0 0 0-.874.486c.33.595.958 1.007 1.687 1.007.73 0 1.356-.412 1.687-1.007a.5.5 0 0 0-.874-.486.934.934 0 0 1-.813.493.934.934 0 0 1-.813-.493z" />
+                    </svg></a>
+
+                <a class="btn btn-default-home btn-sm" href="yingqi_location.html">
+                    <svg width="1.4em" height="1.4em" viewBox="0 0 16 17" class="bi bi-compass-fill" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M15.5 8.516a7.5 7.5 0 1 1-9.462-7.24A1 1 0 0 1 7 0h2a1 1 0 0 1 .962 1.276 7.503 7.503 0 0 1 5.538 7.24zm-3.61-3.905L6.94 7.439 4.11 12.39l4.95-2.828 2.828-4.95z" />
+                    </svg></a>
+
+                <a class="btn btn-default-home btn-sm" href="instagram.html">
+                    <svg width="1.4em" height="1.4em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                    </svg></a>
+
+
+                <!-- Dropdown Items-->
+
+                <span class="dropdown">
+
+                    <button id="dropdown_button" class="btn btn-secondary dropdown-toggle" type="button"
+                        id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <p id="click_button"></p>
+                    </button>
+                    <a href="yingqi_profile.html">
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item" type="button">
+                                <svg width="1.2em" height="1.1em" viewBox="0 0 16 16" class="bi bi-person-circle"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z" />
+                                    <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    <path fill-rule="evenodd"
+                                        d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z" />
+                                </svg>
+                                About Us
+                            </button>
+                    </a>
+
+                    <!-- <a href="yingqi_profile.html">
+                        <button class="dropdown-item" type="button">
+                            <svg width="1.2em" height="1.1em" viewBox="0 0 16 16" class="bi bi-bookmark-plus"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                                <path fill-rule="evenodd"
+                                    d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z" />
+                            </svg>
+                            Products
+                        </button>
+                    </a> -->
+
+                    <!--                <button class="dropdown-item" type="button">
+                            <svg width="1.2em" height="1.1em" viewBox="0 0 16 16" class="bi bi-hdd" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M14 9H2a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1zM2 8a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2H2z" />
+                                <path d="M5 10.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M4.094 4a.5.5 0 0 0-.44.26l-2.47 4.532A1.5 1.5 0 0 0 1 9.51v.99H0v-.99c0-.418.105-.83.305-1.197l2.472-4.531A1.5 1.5 0 0 1 4.094 3h7.812a1.5 1.5 0 0 1 1.317.782l2.472 4.53c.2.368.305.78.305 1.198v.99h-1v-.99a1.5 1.5 0 0 0-.183-.718L12.345 4.26a.5.5 0 0 0-.439-.26H4.094z" />
+                            </svg>
+                            Settings
+                        </button> -->
+                    <a href="yingqi_connect.html">
+                        <button class="dropdown-item" type="button">
+                            <svg width="1.3em" height="1.2em" viewBox="0 0 16 16" class="bi bi-flower3"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268zM9 4a1 1 0 0 0-2 0 1.473 1.473 0 0 0 .045.206c.039.131.1.294.183.483.166.378.396.808.637 1.223l.135.23.135-.23c.241-.415.47-.845.637-1.223.083-.19.144-.352.183-.484.02-.065.031-.116.038-.154C9 4.018 9 4.002 9 4zM3.67 5.5a1 1 0 0 0 .366 1.366 1.47 1.47 0 0 0 .2.064c.134.032.305.06.51.083.411.045.898.061 1.379.06.09 0 .178 0 .266-.002a21.82 21.82 0 0 0-.131-.232 12.88 12.88 0 0 0-.742-1.163 4.215 4.215 0 0 0-.327-.4 1.472 1.472 0 0 0-.115-.11c-.025-.022-.038-.03-.04-.032A1 1 0 0 0 3.67 5.5zm1.366 5.366a1 1 0 0 1-1-1.732c.001 0 .016-.008.047-.02.037-.013.087-.028.153-.044.134-.032.305-.06.51-.083a12.88 12.88 0 0 1 1.379-.06c.09 0 .178 0 .266.002a21.82 21.82 0 0 1-.131.232c-.24.416-.497.83-.742 1.163a4.1 4.1 0 0 1-.327.4 1.483 1.483 0 0 1-.155.142zM9 12a1 1 0 0 1-2 0 1.476 1.476 0 0 1 .045-.206c.039-.131.1-.294.183-.483.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223.083.19.144.352.183.484A1.338 1.338 0 0 1 9 12zm3.33-6.5a1 1 0 0 1-.366 1.366 1.478 1.478 0 0 1-.2.064c-.134.032-.305.06-.51.083-.412.045-.898.061-1.379.06-.09 0-.178 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4.1 4.1 0 0 1 .327-.4c.046-.05.085-.086.114-.11.026-.022.04-.03.041-.032a1 1 0 0 1 1.366.366zm-1.366 5.366a1 1 0 0 0 1-1.732c-.002 0-.016-.008-.047-.02a1.478 1.478 0 0 0-.153-.044 4.217 4.217 0 0 0-.51-.083 12.881 12.881 0 0 0-1.379-.06c-.09 0-.178 0-.266.002a22 22 0 0 0 .131.232c.24.416.497.83.742 1.163.122.167.232.3.327.4a1.494 1.494 0 0 0 .155.142zM8 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                            </svg>
+                            Connect With Us
+                        </button>
+                    </a>
+
+            </div>
+            </span>
+        </div>
+
+
+
+    </div>
+
+    </div>
+
+    <!--first container ends here (nav bar)-->
+
+    <!--carousel starts here-->
+
+    <div class="container" style="border:3px solid black">
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100"
+                                src="https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/homepage/launch_12162019/homepage_qa_18.jpg?h=1103&la=en&w=1596&hash=909122D63FD419265833D75549610BD9E43CDA1A"
+                                alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100"
+                                src="https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/homepage/launch_12162019/homepage_qa_14_v2.jpg?h=1101&la=en&w=1595&hash=722EBDB85812FF819515CA19E797F057E0B1536E"
+                                alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100"
+                                src="https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/homepage/launch_12162019/homepage_qa_20.jpg?h=1101&la=en&w=1595&hash=2D92F5C3F4A58A52AEF60DC4BA38072885298290"
+                                alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
