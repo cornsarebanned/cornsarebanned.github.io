@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Carousell</title>
+
+    <style>
+        .c_logo{
+            width: 14%;
+            height:4%;
+        }
+
+        /* .no-gutters{
+            display: flex;
+            border: 2px solid black; 
+            line-height: 200px;    
+               
+        } */
+
+    
+        .col-8{
+           /* border: 2px solid black; */
+        }
+
+        .col-2{
+           
+           /* border: 1px solid black; */
+            
+        }
+
+        .red_color{
+            color:red;
+            font-weight: bold;
+        }
+            
+        .row{
+        flex-wrap: wrap;
+        
+        }
+
+        .row_1{
+        flex-wrap: wrap;
+        
+        }
+
+        .img-fluid{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+        }
+
+        .container{
+            line-height: 200px;  
+        }
+
+        .twitter{
+            right:30px;
+        }
+        
+    </style>
+
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-light bg-light justify-content-between">
+            <img class="c_logo" src="https://mweb-cdn.karousell.com/build/carousell-logo-title-a0ddd1f542efa5b015fc5406e347370b.svg" alt="carousell logo">
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button type="button" class="btn btn-danger">Sell</button>
+            </form>
+          </nav>
+    </header>
+    <!--Carousel here-->
+  
+    <div class="row no-gutters">  
+        <div class="col-8">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://i1.wp.com/www.ecommerce-nation.com/wp-content/uploads/2017/12/12-Marketing-Strategies-to-Boost-your-E-commerce-with-Christmas-Sales.png?resize=959%2C398&ssl=1" alt="First slide">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://i1.wp.com/www.ecommerce-nation.com/wp-content/uploads/2017/12/12-Marketing-Strategies-to-Boost-your-E-commerce-with-Christmas-Sales.png?resize=959%2C398&ssl=1" alt="Second slide">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://i1.wp.com/www.ecommerce-nation.com/wp-content/uploads/2017/12/12-Marketing-Strategies-to-Boost-your-E-commerce-with-Christmas-Sales.png?resize=959%2C398&ssl=1" alt="Third slide">
+                  </div>
+                  
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+         </div>
+    
+
+    <div class=" border col-2">
+        <a href="https://twitter.com/">
+            <img class="twitter" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfhj_o2d_86DhA-g1KdlsxFQQKNFimREJrkg&usqp=CAU" 
+            alt="twitter logo" width="38" height="37"></a>
+     </div>
+
+     <div class="border col-2">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+             <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> -->
+             <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://mweb-cdn.karousell.com/build/home-app-banner-67547b16c2f068f5ae0870cd39b22c51.jpg">
+              </div>
+              
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+     </div>
+</div>
+
+        
+
+    <!--both carousel ends here-->
+
+
+    <!--Second batch of flexbox-->
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://media.karousell.com/media/photos/products/2020/10/23/polygon_cascade_3_mountain_bik_1603493647_f3bcba2d_progressive.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polygon Cascade 3 Mountain Bike</h5>
+                  <p class="red_color">S$ 420</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://media.karousell.com/media/photos/products/2020/10/23/polygon_cascade_3_mountain_bik_1603493647_f3bcba2d_progressive.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polygon Cascade 3 Mountain Bike</h5>
+                  <p class="red_color">S$ 420</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://media.karousell.com/media/photos/products/2020/10/23/polygon_cascade_3_mountain_bik_1603493647_f3bcba2d_progressive.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polygon Cascade 3 Mountain Bike</h5>
+                  <p class="red_color">S$ 420</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://media.karousell.com/media/photos/products/2020/10/23/polygon_cascade_3_mountain_bik_1603493647_f3bcba2d_progressive.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polygon Cascade 3 Mountain Bike</h5>
+                  <p class="red_color">S$ 420</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://media.karousell.com/media/photos/products/2020/10/23/polygon_cascade_3_mountain_bik_1603493647_f3bcba2d_progressive.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polygon Cascade 3 Mountain Bike</h5>
+                  <p class="red_color">S$ 420</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://media.karousell.com/media/photos/products/2020/10/23/polygon_cascade_3_mountain_bik_1603493647_f3bcba2d_progressive.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polygon Cascade 3 Mountain Bike</h5>
+                  <p class="red_color">S$ 420</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://media.karousell.com/media/photos/products/2020/10/23/polygon_cascade_3_mountain_bik_1603493647_f3bcba2d_progressive.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polygon Cascade 3 Mountain Bike</h5>
+                  <p class="red_color">S$ 420</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://media.karousell.com/media/photos/products/2020/10/23/polygon_cascade_3_mountain_bik_1603493647_f3bcba2d_progressive.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polygon Cascade 3 Mountain Bike</h5>
+                  <p class="red_color">S$ 420</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://media.karousell.com/media/photos/products/2020/10/23/polygon_cascade_3_mountain_bik_1603493647_f3bcba2d_progressive.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Polygon Cascade 3 Mountain Bike</h5>
+                  <p class="red_color">S$ 420</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://media.karousell.com/media/photos/products/2020/10/23/polygon_cascade_3_mountain_bik_1603493647_f3bcba2d_progressive.jpg" alt="Card image cap">
+                <div class="card-body">
+                 <h5 class="card-title">Polygon Cascade 3 Mountain Bike</h5>
+                 <p class="red_color">S$ 420</p>
+                 <a href="#" class="btn btn-primary">Buy</a> 
+                </div>
+              </div>
+        </div>
+
+    </div>
+    <!--Second batch of flexbox end here-->
+
+    <!--start of second carousel-->
+   <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://media.karousell.com/media/photos/country-collections/icons/1/2020/01/22/56-Following-cxxhdpi_1579663947.19.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>  -->
+      <!--end of second carousel-->
+
+    <!--Third batch of flexbox start here-->
+    <h3>Explore Carousell</h3>
+    <div class="row">
+        <div class="col"><img class="img-fluid" src="https://media.karousell.com/media/photos/country-collections/icons/1/2020/01/22/56-Following-cxxhdpi_1579663947.19.png" alt="hover1"></div>
+        <div class="col"><img class="img-fluid" src="https://media.karousell.com/media/photos/country-collections/icons/22/2020/01/22/56-Cars-cxxhdpi_1579663915.34.png" alt="hover2"></div>
+        <div class="col"><img class="img-fluid" src="https://media.karousell.com/media/photos/country-collections/icons/73/2020/01/22/56-Property-cxxhdpi_1579664037.67.png" alt="hover3"></div>
+        <div class="col"><img class="img-fluid" src="https://media.karousell.com/media/photos/country-collections/icons/1708/2020/01/22/56-Home_Services-cxxhdpi_1579663978.98.png" alt="hover4"></div>
+        <div class="col"><img class="img-fluid" src="https://media.karousell.com/media/photos/country-collections/icons/5/2020/01/22/56-Electronics-cxxhdpi_1579663925.95.png" alt="hover5"></div>
+        <div class="col"><img class="img-fluid" src="https://media.karousell.com/media/photos/country-collections/icons/363/2020/01/22/56-mobile_phones_tablets-cxxhdpi_1579664011.0.png" alt="hover6"></div>
+        <div class="col"><img class="img-fluid" src="https://media.karousell.com/media/photos/country-collections/icons/2/2020/01/22/56-Womens_Fashion-cxxhdpi_1579664064.51.png" alt="hover7"></div>
+      </div>
+
+     <!--Third batch of flexbox end here-->
+   
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

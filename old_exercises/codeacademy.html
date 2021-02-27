@@ -90,7 +90,10 @@
         }
 
         #padding_image_man{
-            padding:32px 1px;
+            padding-top:32px;
+            padding-bottom:32px;
+            padding-left:1px;
+            padding-right:0px;
         }
 
         #font_doesnt_hurt{
@@ -114,20 +117,49 @@
             color: black;
         }
 
-        #image_shadows1{
+        /* left(image shadow) */
+        #image_shadows1{           
             margin-top: 10px;
             margin-bottom: 10px;
             margin-left: 0px;
             padding-left: 0;
+            
+        }
+
+        /* right(words orientation) */
+        #image_shadows1_1{
+            margin-top: 22px;
+            margin-bottom: 10px;
+            margin-right: 12px;
+            padding-left: 0;
         }
 
         #border_img{
-            border: 1px solid #007EA7
+            /* border: 1px solid #007EA7; */
+
         } 
 
         #backgnd_out_of_nowhere{
             background-color: #007EA7;
         }
+
+        #time_date{
+            font-size: 0.7rem;
+        }
+
+        /* button (read more) */
+        #image_shadows1_1 a{
+            text-decoration: underline;
+            color:#003249;
+            font-size: 85%;
+        }
+
+        /* button (read more hover) */
+        #image_shadows1_1 a:hover{
+            text-decoration: none;
+            color:#003249;
+        }
+
         
         
     </style>
@@ -142,7 +174,7 @@
 
     <!--Navigation Bar-->
     <header>
-        <div id="nav_bckgnd_color" class="container-fluid border flex-direction-column-reverse">
+        <!-- <div id="nav_bckgnd_color" class="container-fluid border flex-direction-column-reverse">
             <div class="row">
 
                 <div id="realign_logo" class="col-3">
@@ -166,8 +198,25 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
         
+        <div class="container-flex">
+            
+                <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom">
+                    <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
+                    <nav class="my-2 my-md-0 mr-md-3">
+                      <a class="p-2 text-dark" href="#">On campus</a>
+                      <a class="p-2 text-dark" href="#">Online</a>
+                      <a class="p-2 text-dark" href="#">For companies</a>
+                      <a class="p-2 text-dark" href="#">Sign in</a>
+                    </nav>
+                    
+                </div>
+            
+        </div>
+
+
+
     </header>
 
     <!--Navigation bar ends here-->
@@ -232,75 +281,60 @@
             <div class="col-4">
               <div id="border_img" class="row" >
 
-                <div class="col">
+                <div class="col-5">
                   <div id="image_shadows1" class="col">  <!--2columns inside each row-->
                       <img src="https://liftedpixel.github.io/ColmarAcademy/img/information-orientation.jpg" 
-                      alt="shadows walking image" width="120" height="120">
+                      alt="shadows walking image" width="135" height="135">
                   </div>
                 </div>
 
-                <div class="col">
-                    <div id="image_shadows1" class="col">  <!--2columns inside each row-->
-                        <p><strong>Orientation date</strong></p>
-                        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                        <a href="#"><u>Read more</u></a>
-
+                <div class="col-7">
+                    <div id="image_shadows1_1" class="col">  <!--2columns inside each row-->
+                        <h5><strong>Orientation date</strong></h5>
+                        <p id="time_date">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                        <a href="#">Read more</a>
                     </div>
                 </div>
               </div>
 
               <div id="border_img" class="row">
 
-                <div class="col">
+                <div class="col-5 ">
                   <div id="image_shadows1" class="col">  <!--2columns inside each row-->
                       <img src="https://liftedpixel.github.io/ColmarAcademy/img/information-campus.jpg" 
-                      alt="2" width="120" height="120">
+                      alt="2" width="135" height="135">
                   </div>
                 </div>
 
-                <div class="col">
-                    <div id="image_shadows1" class="col">  <!--2columns inside each row-->
-                        <p>blah blah</p>
+                <div class="col-7">
+                    <div id="image_shadows1_1" class="col">  <!--2columns inside each row-->
+                        <h5><strong>Our campus</strong></h5>
+                        <p id="time_date">Find which campus is close to you</p>
+                        <a href="#">Read more</a>
                     </div>
                 </div>
               </div>
 
               <div id="border_img" class="row" >
 
-                <div id="backgnd_out_of_nowhere" class="col">
+                <div id="backgnd_out_of_nowhere" class="col-5">
                   <div id="image_shadows1" class="col">  <!--2columns inside each row-->
                       <img src="https://liftedpixel.github.io/ColmarAcademy/img/information-guest-lecture.jpg" 
-                      alt="3" width="120" height="120">
+                      alt="3" width="135" height="135">
                   </div>
                 </div>
 
-                <div id="backgnd_out_of_nowhere" class="col">
-                    <div id="image_shadows1" class="col">  <!--2columns inside each row-->
-                        <p>blah blah</p>
+                <div id="backgnd_out_of_nowhere" class="col-7">
+                    <div id="image_shadows1_1" class="col">  <!--2columns inside each row-->
+                        <h5><strong>Our guest lecture</strong></h5>
+                        <p id="time_date">Join a keynote with Oliver Sack about music in medical treatment</p>
+                        <a  href="#">Read more</a>
                     </div>
                 </div>
               </div>
 
-              <div id="border_img" class="row" >
-
-                <div class="col">
-                  <div id="image_shadows1" class="col">  <!--2columns inside each row-->
-                      <img src="https://liftedpixel.github.io/ColmarAcademy/img/information-orientation.jpg" 
-                      alt="shadows walking image" width="120" height="120">
-                  </div>
-                </div>
-
-                <div class="col">
-                    <div id="image_shadows1" class="col">  <!--2columns inside each row-->
-                        <p>blah blah</p>
-                    </div>
-                </div>
-              </div>
-
-
-
-                
-            </div>
+                 
+            </div> <!--for closing col-4-->
         </div> <!--for closing row-->
     </div>      <!--for closing container-->
 
