@@ -2,12 +2,13 @@
  
  .container-fluid {                     /* container of navigation bar, bs containers are padded, need to remove them*/
     padding-right:0;
-    padding-left:0;
+    padding-left: 0;
     margin-right:auto;
     margin-left:auto;
     background-color:#f2f4f5;         /*nav background color */
     padding-top:0px; 
     width:100%;
+    overflow-x: hidden;
  }
 
  .container_0{                           /*free deliv container */
@@ -919,7 +920,7 @@ hr{                                /*WRITE TO US, LOCATE US, SOCIAL MEDIA (UNDER
     /*------------ Footer Button (Back to top) starts here -----------*/
 
     .container_backtotop{
-        height: 75px;           /*-5px*/
+        height: 100px;           /*-5px*/
         padding-bottom: 58px;  
     }
 
@@ -1095,7 +1096,7 @@ hr{                                /*WRITE TO US, LOCATE US, SOCIAL MEDIA (UNDER
     /*------------ Footer Button (Back to top) starts here -----------*/
 
     .container_backtotop{
-        height: 75px;           /*-5px*/
+        height: 100px;           /*-5px*/
         padding-bottom: 58px;  
     }
 
@@ -1271,7 +1272,7 @@ hr{                                /*WRITE TO US, LOCATE US, SOCIAL MEDIA (UNDER
     /*------------ Footer Button (Back to top) starts here -----------*/
 
     .container_backtotop{
-        height: 75px;           /*-5px*/
+        height: 100px;           /*-5px*/
         padding-bottom: 58px;  
     }
 
@@ -1447,7 +1448,7 @@ hr{                                /*WRITE TO US, LOCATE US, SOCIAL MEDIA (UNDER
     /*------------ Footer Button (Back to top) starts here -----------*/
 
     .container_backtotop{
-        height: 75px;           /*-5px*/
+        height: 100px;           /*-5px*/
         padding-bottom: 58px;  
     }
 
@@ -1623,7 +1624,7 @@ hr{                                /*WRITE TO US, LOCATE US, SOCIAL MEDIA (UNDER
     /*------------ Footer Button (Back to top) starts here -----------*/
 
     .container_backtotop{
-        height: 75px;           /*-5px*/
+        height: 100px;           /*-5px*/
         padding-bottom: 58px;  
     }
 
@@ -1799,7 +1800,7 @@ hr{                                /*WRITE TO US, LOCATE US, SOCIAL MEDIA (UNDER
     /*------------ Footer Button (Back to top) starts here -----------*/
 
     .container_backtotop{
-        height: 75px;           /*-5px*/
+        height: 100px;           /*-5px*/
         padding-bottom: 58px;  
     }
 
@@ -1975,7 +1976,7 @@ hr{                                /*WRITE TO US, LOCATE US, SOCIAL MEDIA (UNDER
     /*------------ Footer Button (Back to top) starts here -----------*/
 
     .container_backtotop{
-        height: 75px;           /*-5px*/
+        height: 100px;           /*-5px*/
         padding-bottom: 58px;  
     }
 
@@ -2151,8 +2152,9 @@ hr{                                /*WRITE TO US, LOCATE US, SOCIAL MEDIA (UNDER
     /*------------ Footer Button (Back to top) starts here -----------*/
 
     .container_backtotop{
-        height: 80px;           /*-10px*/
+        height: 100px;           /*-10px*/
         padding-bottom: 58px;  
+        /* border: 5px dotted red; */
     }
 
     /*------------- Footer Button (Back to top) ends here ------------*/
@@ -2429,7 +2431,7 @@ body {
     /*------------ Footer Button (Back to top) starts here -----------*/
 
     .container_backtotop{
-        height: 90px;           /*-20px*/
+        height: 100px;           /*-20px*/
         padding-bottom: 58px;   /*-30px*/
     }
 
