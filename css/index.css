@@ -95,7 +95,7 @@
     color:#fa2871;
     font-family: 'PT Mono', monospace;
     font-size: 24px;
-    display: inline;
+    display: inline-block;
   }
 
   .container_nav1 > nav > .font_appease:hover{
@@ -139,7 +139,7 @@
         color:#fa2871;
         font-family: 'PT Mono', monospace;
         font-size: 24px;
-        display: inline;
+        display:inline-block;
       }
     .nav-item1, .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6{  /*adjust margin between a*/
         margin-right: 8px;
@@ -169,10 +169,10 @@
 
     .container_nav1 > nav > .font_appease{              /*adjust font*/
         letter-spacing: 0.15em;
-        font-size: 24px;
+        font-size: 24px; 
         color:#fa2871;
         font-family: 'PT Mono', monospace;
-        display: inline;
+        display:inline-block;
     }
     .nav-item1, .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6{  /*adjust margin between a*/
         margin-right: 8px;
@@ -204,7 +204,7 @@
         font-size: 24px;
         color:#fa2871;
         font-family: 'PT Mono', monospace;
-        display: inline;
+        display:inline-block;
     }
     .nav-item1, .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6{  /*adjust margin between a*/
         margin-right: 8px;
@@ -236,7 +236,7 @@
         font-size: 24px;
         color:#fa2871;
         font-family: 'PT Mono', monospace;
-        display: inline;
+        display:inline-block;
     }
     .nav-item1, .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6{  /*adjust margin between a*/
         margin-right: 8px;
@@ -267,7 +267,7 @@
         font-size: 24px;
         color:#fa2871;
         font-family: 'PT Mono', monospace;
-        display: inline;
+        display:inline-block;
     }
     .nav-item1, .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6{  /*adjust margin between a*/
         margin-right: 8px;
@@ -298,7 +298,7 @@
         font-size: 24px;
         color:#fa2871;
         font-family: 'PT Mono', monospace;
-        display: inline;
+        display:inline-block;
     }
     .nav-item1, .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6{  /*adjust margin between a*/
         margin-right: 8px;
@@ -398,15 +398,14 @@
 
 /******** MEDIA QUERY (MAX-WIDTH) [START] *********/
 
-
-  @media screen and (max-width: 445px){
+  @media screen and (max-width: 440px){
 
     .container_nav1 > nav > .font_appease{
         letter-spacing: 0.15em;
         color:#fa2871;
         font-family: 'PT Mono', monospace;
         font-size: 24px;
-        display: none;
+        display: none; 
     }
 
     .nav-item1{
@@ -437,8 +436,6 @@
         margin-bottom: 110px;
     }
 }
-
-
 
   @media screen and (max-width: 991px){
 
